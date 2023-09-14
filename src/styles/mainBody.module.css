@@ -1,0 +1,35 @@
+.mainBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-width: 45vw;
+  max-width: 50vw;
+  min-height: 45vh;
+  max-height: 50vh;
+  background-color: hsl(189, 90%, 25%);
+  border-radius: 5rem;
+  overflow-y: auto;
+  align-items: center;
+  padding: 1rem;
+}
+
+.cars {
+  background-color: aquamarine;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cars:hover {
+  background-color: hsl(180, 44%, 29%);
+  color: white;
+}
